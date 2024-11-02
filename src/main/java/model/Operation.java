@@ -11,6 +11,7 @@ public class Operation {
     private LocalDateTime dateTime;
     private boolean paid;
     private DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("MM/dd/yyyy  HH:mm:ss");
+    private String diagnosis;
 
     public Operation() {
 
@@ -48,7 +49,7 @@ public class Operation {
     }
 
     public String getDateTimeFormat(){
-        return "MM/dd/yyyy  HH:mm:ss"
+        return "MM/dd/yyyy  HH:mm:ss";
     }
 
     public boolean isPaid() {
@@ -57,5 +58,13 @@ public class Operation {
 
     public void setPaid(boolean paid){
         this.paid = paid;
+    }
+
+    public String getDiagnosis() {
+        return diagnosis;
+    }
+
+    public void setDiagnosis(String diagnosis) {
+        this.diagnosis = diagnosis;
     }
 }
