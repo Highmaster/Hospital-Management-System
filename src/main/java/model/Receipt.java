@@ -7,7 +7,7 @@ public class Receipt {
     private Patient patient;
     private double amount;
     private int type;
-    //0 ==> Operatiom
+    //0 ==> Operation
     //1 ===> Report
     private int itemID; //Operation/Report ID
 
