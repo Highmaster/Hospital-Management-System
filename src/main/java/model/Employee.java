@@ -16,4 +16,7 @@ public class Employee  extends User{
     public void setSalary(double salary) {
         this.salary= salary;
     }
+
+    public abstract int getJob();
+
 }
