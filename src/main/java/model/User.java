@@ -4,7 +4,7 @@ public class User {
 
     private int ID;
     private String firstName;
-    private String latName;
+    private String lastName;
     private String email;
     private String phoneNumber;
     private String password;
@@ -26,12 +26,12 @@ public class User {
         this.firstName = firstName;
     }
 
-    public String getLatName() {
-        return latName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLatName(String latName) {
-        this.latName = latName;
+    public void setLastName(String latName) {
+        this.lastName = latName;
     }
 
     public String getEmail() {
